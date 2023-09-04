@@ -1,6 +1,6 @@
-# Beautiful Animated Backgrounds with Flutter.
+# Beautiful Animated Backgrounds
 
-このアプリは複数のパッケージを使用して様々なアニメーションを一覧表示できるデモを提供しています。
+このアプリは、複数のパッケージを使用して様々なアニメーションを一覧表示できるデモを提供しています。
 
 使用したパッケージは以下の通りです：
 
@@ -15,22 +15,14 @@
 
 ## Demo
 
-アプリ使用時のデモ
+アプリ使用時のデモです。
 
 <p float="left"><img src="./docs/AppDemo.gif" width="270" /></p>
 
 ### Sample
 
-以下はアプリ内のいくつかのアニメーション
+以下はアプリ内のいくつかのアニメーションです。
 
-<div style="display: flex; justify-content: space-around;">
-  <div style="margin-right: 4px;">
-    <img src="./docs/Metaballs.gif" width="270" />
-  </div>
-  <div style="margin-right: 4px;">
-    <img src="./docs/AnimatedGlitch.gif" width="270" />
-  </div>
-  <div>
-    <img src="./docs/AnimationWithRive.gif" width="270" />
-  </div>
-</div>
+<img src="./docs/Metaballs.gif" width="270" align="left"/>
+<img src="./docs/AnimatedGlitch.gif" width="270" align="left"/>
+<img src="./docs/AnimationWithRive.gif" width="270" align="left"/>
