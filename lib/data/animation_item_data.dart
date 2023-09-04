@@ -4,6 +4,7 @@ import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dar
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_2.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_3.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_4.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_6.dart';
 
 const animationItemData = [
   AnimationItem(
@@ -30,5 +31,10 @@ const animationItemData = [
     title: 'Parallax Rain',
     subtitle: 'https://pub.dev/packages/parallax_rain',
     targetWidget: Animation5Screen(),
+  ),
+  AnimationItem(
+    title: 'Floating Bubbles',
+    subtitle: 'https://pub.dev/packages/floating_bubbles',
+    targetWidget: Animation6Screen(),
   ),
 ];

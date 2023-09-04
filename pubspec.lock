@@ -65,6 +65,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
+  floating_bubbles:
+    dependency: "direct main"
+    description:
+      name: floating_bubbles
+      sha256: a21f9c4e0247b1efb1f584320b459242952821585336119d3838c99ce5b5510e
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -171,6 +179,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
+  sa4_migration_kit:
+    dependency: transitive
+    description:
+      name: sa4_migration_kit
+      sha256: "635df6de79b8b396705a630ba2d7bc7a2a1df4f69b4bfc10aa104290f6fdca85"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  simple_animations:
+    dependency: transitive
+    description:
+      name: simple_animations
+      sha256: "1ea7b93fb98e2a611b6865d632de55607b766328d14700143353129ee0559d3a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
