@@ -4,6 +4,7 @@ import 'package:flutter_beautiful_backgrounds/widgets/home_list.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

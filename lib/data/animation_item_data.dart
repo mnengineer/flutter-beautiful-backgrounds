@@ -3,43 +3,8 @@ import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dar
 
 const animationItemData = [
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
-  ),
-  AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
+    title: 'Metaballs',
+    subtitle: 'https://pub.dev/packages/metaballs',
     targetWidget: Animation1Screen(),
   ),
 ];

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_beautiful_backgrounds/screens/home.dart';
 
 void main() {
+  Paint.enableDithering = true;
   runApp(const MyApp());
 }
 
