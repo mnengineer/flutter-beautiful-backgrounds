@@ -1,43 +1,36 @@
 # Beautiful Animated Backgrounds with Flutter.
 
-このアプリは複数のパッケージを利用して様々なアニメーションを一覧表示できるデモを提供しています。
+このアプリは複数のパッケージを使用して様々なアニメーションを一覧表示できるデモを提供しています。
 
 使用したパッケージは以下の通りです：
 
-- https://pub.dev/packages/metaballs
-- https://pub.dev/packages/weather_animation
-- https://pub.dev/packages/animated_background
-- https://pub.dev/packages/particles_flutter
-- https://pub.dev/packages/parallax_rain
-- https://pub.dev/packages/floating_bubbles
-- https://pub.dev/packages/animated_glitch
-- https://pub.dev/packages/rive
+- [Metaballs](https://pub.dev/packages/metaballs)
+- [Weather Animation](https://pub.dev/packages/weather_animation)
+- [Animated Background](https://pub.dev/packages/animated_background)
+- [Particles Flutter](https://pub.dev/packages/particles_flutter)
+- [Parallax Rain](https://pub.dev/packages/parallax_rain)
+- [Floating Bubbles](https://pub.dev/packages/floating_bubbles)
+- [Animated Glitch](https://pub.dev/packages/animated_glitch)
+- [Rive](https://pub.dev/packages/rive)：[Build an Animated App with Rive and Flutter](https://www.youtube.com/watch?v=Td3xEWwRAQA)
 
 ## Demo
 
+アプリ使用時のデモです。
+
 <p float="left"><img src="./docs/AppDemo.gif" width="270" /></p>
 
-### Metaballs
-<p float="left"><img src="./docs/Metaballs.gif" width="270" /></p>
+### Sample
 
-### Weather Animation
-<p float="left"><img src="./docs/WeatherAnimation.gif" width="270" /></p>
+以下はいくつかのアニメーションのサンプルです。
 
-### Animated Background
-<p float="left"><img src="./docs/AnimatedBackground.gif" width="270" /></p>
-
-### Particles Flutter
-<p float="left"><img src="./docs/ParticlesFlutter.gif" width="270" /></p>
-
-### Parallax Rain
-<p float="left"><img src="./docs/ParallaxRain.gif" width="270" /></p>
-
-### Floating Bubbles
-<p float="left"><img src="./docs/FloatingBubbles.gif" width="270" /></p>
-
-### Animated Glitch
-<p float="left"><img src="./docs/AnimatedGlitch.gif" width="270" /></p>
-
-### Animation with Rive
-[Build an Animated App with Rive and Flutter](https://www.youtube.com/watch?v=Td3xEWwRAQA)
-<p float="left"><img src="./docs/AnimationWithRive.gif" width="270" /></p>
+<div style="display: flex; justify-content: space-around;">
+  <div style="margin-right: 4px;">
+    <img src="./docs/Metaballs.gif" width="270" />
+  </div>
+  <div style="margin-right: 4px;">
+    <img src="./docs/AnimatedGlitch.gif" width="270" />
+  </div>
+  <div>
+    <img src="./docs/AnimationWithRive.gif" width="270" />
+  </div>
+</div>
