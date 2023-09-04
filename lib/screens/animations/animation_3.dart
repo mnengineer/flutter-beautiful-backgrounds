@@ -137,19 +137,17 @@ class _Animation3ScreenState extends State<Animation3Screen>
         const SizedBox(height: 10.0),
         Text('Behaviour: ${_behaviour.runtimeType.toString()}'),
         const SizedBox(height: 10.0),
-      ]
-        ..addAll(_behaviour is ParticleBehaviour
+        ...(_behaviour is ParticleBehaviour
             ? _buildParticleSettings()
-            : const Iterable.empty())
-        ..addAll(_behaviour is RacingLinesBehaviour
+            : const []),
+        ...(_behaviour is RacingLinesBehaviour
             ? _buildLinesSettings()
-            : const Iterable.empty())
-        ..addAll(_behaviour is BubblesBehaviour
+            : const []),
+        ...(_behaviour is BubblesBehaviour
             ? _buildBubblesSettings()
-            : const Iterable.empty())
-        ..addAll(_behaviour is SpaceBehaviour
-            ? _buildSpaceSettings()
-            : const Iterable.empty()),
+            : const []),
+        ...(_behaviour is SpaceBehaviour ? _buildSpaceSettings() : const []),
+      ],
     );
   }
 
@@ -192,7 +190,7 @@ class _Animation3ScreenState extends State<Animation3Screen>
               });
             },
           ),
-          Text('${particleOptions.spawnOpacity.toStringAsFixed(1)}'),
+          Text(particleOptions.spawnOpacity.toStringAsFixed(1)),
         ],
       ),
       Row(
@@ -211,7 +209,7 @@ class _Animation3ScreenState extends State<Animation3Screen>
               });
             },
           ),
-          Text('${particleOptions.opacityChangeRate.toStringAsFixed(2)}'),
+          Text(particleOptions.opacityChangeRate.toStringAsFixed(2)),
         ],
       ),
       Row(
@@ -231,7 +229,7 @@ class _Animation3ScreenState extends State<Animation3Screen>
               });
             },
           ),
-          Text('${particleOptions.minOpacity.toStringAsFixed(2)}'),
+          Text(particleOptions.minOpacity.toStringAsFixed(2)),
         ],
       ),
       Row(
@@ -251,7 +249,7 @@ class _Animation3ScreenState extends State<Animation3Screen>
               });
             },
           ),
-          Text('${particleOptions.maxOpacity.toStringAsFixed(2)}'),
+          Text(particleOptions.maxOpacity.toStringAsFixed(2)),
         ],
       ),
       Row(
@@ -355,9 +353,7 @@ class _Animation3ScreenState extends State<Animation3Screen>
           children: <Widget>[
             Row(
               children: <Widget>[
-                _buildImageSelector(
-                    Image.asset('assets/images/star_stroke.png')),
-                _buildImageSelector(Image.asset('assets/images/icy_logo.png')),
+                _buildImageSelector(Image.asset('assets/images/duck.jpg')),
                 ElevatedButton(
                   child: const Text('Clipboard'),
                   onPressed: () {
@@ -416,6 +412,8 @@ class _Animation3ScreenState extends State<Animation3Screen>
   Widget _buildImageSelector(Image image) {
     return InkWell(
       child: SizedBox(
+        width: 40.0,
+        height: 40.0,
         child: Container(
           decoration: BoxDecoration(
             border: Border.all(
@@ -427,8 +425,6 @@ class _Animation3ScreenState extends State<Animation3Screen>
           ),
           child: image,
         ),
-        width: 40.0,
-        height: 40.0,
       ),
       onTap: () => setState(() {
         _image = image;
@@ -651,10 +647,11 @@ class RainParticleBehaviour extends RandomParticleBehaviour {
   @override
   void initPosition(Particle p) {
     p.cx = random.nextDouble() * size!.width;
-    if (p.cy == 0.0)
+    if (p.cy == 0.0) {
       p.cy = random.nextDouble() * size!.height;
-    else
+    } else {
       p.cy = random.nextDouble() * size!.width * 0.2;
+    }
   }
 
   @override
@@ -690,7 +687,7 @@ class RainParticleBehaviour extends RandomParticleBehaviour {
   void _updateParticles(BuildContext context, Offset offsetGlobal) {
     RenderBox renderBox = context.findRenderObject() as RenderBox;
     var offset = renderBox.globalToLocal(offsetGlobal);
-    particles!.forEach((particle) {
+    for (var particle in particles!) {
       var delta = (Offset(particle.cx, particle.cy) - offset);
       if (delta.distanceSquared < 70 * 70) {
         var speed = particle.speed;
@@ -701,6 +698,6 @@ class RainParticleBehaviour extends RandomParticleBehaviour {
         particle.dx = delta.dx / mag * speed;
         particle.dy = delta.dy / mag * speed;
       }
-    });
+    }
   }
 }

@@ -80,7 +80,7 @@ class _Animation5ScreenState extends State<Animation5Screen> {
                 Expanded(
                   child: ParallaxRain(
                     key: parallaxThree,
-                    dropColors: [Colors.blueGrey],
+                    dropColors: const [Colors.blueGrey],
                     trail: true,
                     child: const Center(
                       child: Text(
