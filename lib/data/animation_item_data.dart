@@ -1,45 +1,52 @@
 import 'package:flutter_beautiful_backgrounds/models/animation_item.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animaiton_8.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_5.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_2.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_3.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_4.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_6.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_7.dart';
 
 const animationItemData = [
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
+    title: 'Metaballs',
+    subtitle: 'https://pub.dev/packages/metaballs',
     targetWidget: Animation1Screen(),
   ),
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    title: 'Weather Animation',
+    subtitle: 'https://pub.dev/packages/weather_animation',
+    targetWidget: Animation2Screen(),
   ),
   AnimationItem(
     title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    subtitle: 'https://pub.dev/packages/animated_background',
+    targetWidget: Animation3Screen(),
   ),
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    title: 'Particles Flutter',
+    subtitle: 'https://pub.dev/packages/particles_flutter',
+    targetWidget: Animation4Screen(),
   ),
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    title: 'Parallax Rain',
+    subtitle: 'https://pub.dev/packages/parallax_rain',
+    targetWidget: Animation5Screen(),
   ),
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    title: 'Floating Bubbles',
+    subtitle: 'https://pub.dev/packages/floating_bubbles',
+    targetWidget: Animation6Screen(),
   ),
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    title: 'Animated Glitch',
+    subtitle: 'https://pub.dev/packages/animated_glitch',
+    targetWidget: Animation7Screen(),
   ),
   AnimationItem(
-    title: 'Animated Background',
-    subtitle: 'Animated Background',
-    targetWidget: Animation1Screen(),
+    title: 'Animation with Rive',
+    subtitle: 'https://www.youtube.com/@TheFlutterWay',
+    targetWidget: Animation8Screen(),
   ),
 ];
