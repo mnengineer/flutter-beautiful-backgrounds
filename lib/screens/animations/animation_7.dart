@@ -27,7 +27,7 @@ class _Animation7ScreenState extends State<Animation7Screen> {
         ],
         controller: _controller,
         child: Image.asset(
-          'assets/images/cyber.jpeg',
+          'assets/images/cyber.jpg',
           fit: BoxFit.cover,
         ),
       ),

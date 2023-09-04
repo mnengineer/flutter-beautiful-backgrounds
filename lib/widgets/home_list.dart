@@ -3,6 +3,7 @@ import 'package:flutter_beautiful_backgrounds/models/animation_item.dart';
 
 class HomeList extends StatelessWidget {
   const HomeList({Key? key, required this.item}) : super(key: key);
+
   final List<AnimationItem> item;
 
   @override
