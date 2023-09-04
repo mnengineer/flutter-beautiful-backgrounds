@@ -1,16 +1,43 @@
-# flutter_beautiful_backgrounds
+# Beautiful Animated Backgrounds with Flutter.
 
-A new Flutter project.
+このアプリは複数のパッケージを利用して様々なアニメーションを一覧表示できるデモを提供しています。
 
-## Getting Started
+使用したパッケージは以下の通りです：
 
-This project is a starting point for a Flutter application.
+- https://pub.dev/packages/metaballs
+- https://pub.dev/packages/weather_animation
+- https://pub.dev/packages/animated_background
+- https://pub.dev/packages/particles_flutter
+- https://pub.dev/packages/parallax_rain
+- https://pub.dev/packages/floating_bubbles
+- https://pub.dev/packages/animated_glitch
+- https://pub.dev/packages/rive
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<p float="left"><img src="./docs/AppDemo.gif" width="270" /></p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Metaballs
+<p float="left"><img src="./docs/Metaballs.gif" width="270" /></p>
+
+### Weather Animation
+<p float="left"><img src="./docs/WeatherAnimation.gif" width="270" /></p>
+
+### Animated Background
+<p float="left"><img src="./docs/AnimatedBackground.gif" width="270" /></p>
+
+### Particles Flutter
+<p float="left"><img src="./docs/ParticlesFlutter.gif" width="270" /></p>
+
+### Parallax Rain
+<p float="left"><img src="./docs/ParallaxRain.gif" width="270" /></p>
+
+### Floating Bubbles
+<p float="left"><img src="./docs/FloatingBubbles.gif" width="270" /></p>
+
+### Animated Glitch
+<p float="left"><img src="./docs/AnimatedGlitch.gif" width="270" /></p>
+
+### Animation with Rive
+[Build an Animated App with Rive and Flutter](https://www.youtube.com/watch?v=Td3xEWwRAQA)
+<p float="left"><img src="./docs/AnimationWithRive.gif" width="270" /></p>
