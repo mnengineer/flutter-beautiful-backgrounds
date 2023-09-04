@@ -15,13 +15,13 @@
 
 ## Demo
 
-アプリ使用時のデモです。
+アプリ使用時のデモ
 
 <p float="left"><img src="./docs/AppDemo.gif" width="270" /></p>
 
 ### Sample
 
-以下はいくつかのアニメーションのサンプルです。
+以下はアプリ内のいくつかのアニメーション
 
 <div style="display: flex; justify-content: space-around;">
   <div style="margin-right: 4px;">
