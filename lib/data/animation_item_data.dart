@@ -1,4 +1,5 @@
 import 'package:flutter_beautiful_backgrounds/models/animation_item.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animaiton_8.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_5.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_2.dart';
@@ -42,5 +43,10 @@ const animationItemData = [
     title: 'Animated Glitch',
     subtitle: 'https://pub.dev/packages/animated_glitch',
     targetWidget: Animation7Screen(),
+  ),
+  AnimationItem(
+    title: 'Animation with Rive',
+    subtitle: 'https://www.youtube.com/@TheFlutterWay',
+    targetWidget: Animation8Screen(),
   ),
 ];
