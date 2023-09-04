@@ -147,6 +147,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
+  parallax_rain:
+    dependency: "direct main"
+    description:
+      name: parallax_rain
+      sha256: c5833ed54f69583b718fde12bf8385615007cb69534b59cf59d66ae8a8b0791f
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   particles_flutter:
     dependency: "direct main"
     description:

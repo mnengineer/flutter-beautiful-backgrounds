@@ -1,4 +1,5 @@
 import 'package:flutter_beautiful_backgrounds/models/animation_item.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animaiton_5.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_2.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_3.dart';
@@ -24,5 +25,10 @@ const animationItemData = [
     title: 'Particles Flutter',
     subtitle: 'https://pub.dev/packages/particles_flutter',
     targetWidget: Animation4Screen(),
+  ),
+  AnimationItem(
+    title: 'Parallax Rain',
+    subtitle: 'https://pub.dev/packages/parallax_rain',
+    targetWidget: Animation5Screen(),
   ),
 ];
