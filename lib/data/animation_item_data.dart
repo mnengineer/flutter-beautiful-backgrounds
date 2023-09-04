@@ -1,12 +1,12 @@
 import 'package:flutter_beautiful_backgrounds/models/animation_item.dart';
-import 'package:flutter_beautiful_backgrounds/screens/animations/animaiton_8.dart';
-import 'package:flutter_beautiful_backgrounds/screens/animations/animation_5.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_2.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_3.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_4.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_5.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_6.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_7.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_8.dart';
 
 const animationItemData = [
   AnimationItem(

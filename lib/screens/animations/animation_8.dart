@@ -23,7 +23,7 @@ class _Animation8ScreenState extends State<Animation8Screen> {
             ),
           ),
           const RiveAnimation.asset(
-            "assets/RiveAssets/shapes.riv",
+            "assets/rives/shapes.riv",
           ),
           Positioned.fill(
             child: BackdropFilter(
