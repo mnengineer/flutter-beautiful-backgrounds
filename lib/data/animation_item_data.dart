@@ -2,6 +2,7 @@ import 'package:flutter_beautiful_backgrounds/models/animation_item.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_1.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_2.dart';
 import 'package:flutter_beautiful_backgrounds/screens/animations/animation_3.dart';
+import 'package:flutter_beautiful_backgrounds/screens/animations/animation_4.dart';
 
 const animationItemData = [
   AnimationItem(
@@ -18,5 +19,10 @@ const animationItemData = [
     title: 'Animated Background',
     subtitle: 'https://pub.dev/packages/animated_background',
     targetWidget: Animation3Screen(),
+  ),
+  AnimationItem(
+    title: 'Particles Flutter',
+    subtitle: 'https://pub.dev/packages/particles_flutter',
+    targetWidget: Animation4Screen(),
   ),
 ];
