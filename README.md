@@ -15,9 +15,7 @@
 
 ## Demo
 
-アプリ使用時のデモです。
-
-<p float="left"><img src="./docs/AppDemo.gif" width="270" /></p>
+<img src="https://github.com/mnengineer/flutter_beautiful_backgrounds/assets/126535934/625263f8-6a12-4726-80b4-c882ad0d717f" width="270">
 
 ### Sample
 
