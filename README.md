@@ -1,8 +1,8 @@
 # Beautiful Animated Backgrounds
 
-このアプリは、複数のパッケージを使用して様々なアニメーションを一覧表示できるデモを提供しています。
+This is a demo app for a collection of beautiful animated backgrounds created using Flutter. The app utilizes multiple packages to showcase a variety of animations.
 
-使用したパッケージは以下の通りです：
+The packages used are as follows:
 
 - [Metaballs](https://pub.dev/packages/metaballs)
 - [Weather Animation](https://pub.dev/packages/weather_animation)
@@ -19,7 +19,7 @@
 
 ### Sample
 
-以下はアプリ内のいくつかのアニメーションです。
+Below are some of the animations within the app.
 
 <img src="./docs/Metaballs.gif" width="270" align="left"/>
 <img src="./docs/AnimatedGlitch.gif" width="270" align="left"/>
