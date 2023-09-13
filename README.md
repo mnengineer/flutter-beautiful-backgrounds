@@ -13,6 +13,10 @@ The packages used are as follows:
 - [Animated Glitch](https://pub.dev/packages/animated_glitch)
 - [Rive](https://pub.dev/packages/rive)：[Build an Animated App with Rive and Flutter](https://www.youtube.com/watch?v=Td3xEWwRAQA)
 
+## Article
+
+Zenn : [【Flutter】手軽に実装できる美しいアニメーション背景 8選](https://zenn.dev/masashiii/articles/d399800954933f)
+
 ## Demo
 
 <img src="https://github.com/mnengineer/flutter_beautiful_backgrounds/assets/126535934/625263f8-6a12-4726-80b4-c882ad0d717f" width="270">
